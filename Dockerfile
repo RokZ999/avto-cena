@@ -5,6 +5,7 @@ WORKDIR /app
 # Install dependencies only when needed
 FROM base AS deps
 COPY package.json bun.lockb ./
+RUN bun install
 RUN bun install --frozen-lockfile
 
 # Rebuild the source code only when needed
