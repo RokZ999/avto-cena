@@ -9,7 +9,7 @@ www.avto-cena.si is web application which tracks car prices in Slovenia.
 - **Backend:** Go
 - **Database:** PostgreSQL
 - **Caching:** Redis
-- **Scraper:** Python + curl-impersonate
+- **Scraper:** [Python + curl-impersonate](https://github.com/RokZ999/avto-cena)
 
 ## Sheme:
 ![image](https://github.com/user-attachments/assets/a4467d11-a728-407e-a19f-cd3b34e427be)
@@ -33,4 +33,5 @@ Go to the project directory
 ```docker
   docker compose up
 ```
+
 
